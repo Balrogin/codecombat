@@ -31,7 +31,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     contact: "Contate-nos"
     twitter_follow: "Seguir"
     teachers: "Professores"
-#    careers: "Careers"
+    careers: "Careiras"
 
   modal:
     close: "Fechar"
@@ -80,8 +80,8 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     adjust_volume: "Ajuste o volume"
     campaign_multiplayer: "Arenas Multijogador"
     campaign_multiplayer_description: "... nas quais você programará cara-a-cara contra outros jogadores."
-#    campaign_old_multiplayer: "(Deprecated) Old Multiplayer Arenas"
-#    campaign_old_multiplayer_description: "Relics of a more civilized age. No simulations are run for these older, hero-less multiplayer arenas."
+    campaign_old_multiplayer: "(Depreciado) Arenas Multijogador Antigas"
+    campaign_old_multiplayer_description: "Reliquias de uma era mais civilizada. Simulaçôes não rodam para essas antiguidades, Arenas multijogador sem heroi."
 
   share_progress_modal:
     blurb: "Você está fazendo bastante progresso! Compartilhe com alguém o quanto você já aprendeu com o CodeCombat!" # {change}
@@ -159,9 +159,9 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     accepted: "Aceito"
     rejected: "Rejeitado"
     withdrawn: "Retirado"
-#    accept: "Accept"
-#    reject: "Reject"
-#    withdraw: "Withdraw"
+    accept: "Aceitar"
+    reject: "Rejeitar"
+    withdraw: "Retirar"
     submitter: "Enviar"
     submitted: "Enviado"
     commit_msg: "Mensagem de Submissão"
@@ -217,8 +217,8 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
 
   play_level:
     done: "Pronto"
-#    next_game: "Next game"
-#    show_menu: "Show game menu"
+    next_game: "Proximo Jogo"
+    show_menu: "Mostrar Menu do Jogo"
     home: "Início" # Not used any more, will be removed soon.
     level: "Fase" # Like "Level: Dungeons of Kithgard"
     skip: "Pular"
@@ -343,7 +343,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     tip_free_your_mind: "Você tem que deixar isso tudo passar, Neo. O medo, a dúvida e a descrença. Liberte sua mente - Morpheus"
     tip_strong_opponents: "Mesmo o mais forte dos adversários tem sua fraqueza. - Itachi Uchiha"
     tip_paper_and_pen: "Antes de começar a programar, você sempre deve planejar com papel e caneta."
-#    tip_solve_then_write: "First, solve the problem. Then, write the code. - John Johnson"
+    tip_solve_then_write: "Primeiro, resolva o problema.Depois, escreva o codigo. - John Johnson"
 
   game_menu:
     inventory_tab: "Inventário"
@@ -413,7 +413,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     feature7: "<strong>Clãs</strong> Privados"
     free: "Grátis"
     month: "mês"
-#    must_be_logged: "You must be logged in first. Please create an account or log in from the menu above."
+    must_be_logged: "Você precisa logar primeiro. Por favor crie uma conta ou loge no menu acima."
     subscribe_title: "Inscrever-se"
     unsubscribe: "Desinscrever-se"
     confirm_unsubscribe: "Confirmar Desinscrição"
@@ -456,7 +456,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     sale_limited_time: "Oferta por tempo limitado!"
     sale_new_heroes: "Novos heróis!"
     sale_title: "Promoção de volta às aulas"
-#    sale_view_button: "Buy 1 year subscription for"
+    sale_view_button: "Compre 1 ano de assinatura "
     stripe_description: "Inscrição Mensal"
     stripe_description_year_sale: "Assinatura de 1 Ano (35% de desconto"
     subscription_required_to_play: "Você precisará se inscrever para jogar este nível."
@@ -530,8 +530,8 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
   skill_docs:
     writable: "gravável" # Hover over "attack" in Your Skills while playing a level to see most of this
     read_only: "apenas leitura"
-#    action: "Action"
-#    spell: "Spell"
+    action: "Ação"
+    spell: "Magia"
     action_name: "nome"
     action_cooldown: "Demora"
     action_specific_cooldown: "Recarregando"
@@ -607,11 +607,11 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     intro_1: "CodeCombat é um jogo online que ensina programação. Estudantes criam código em linguagens de programação usadas na vida real."
     intro_2: "Não é necessário ter experiência!"
     free_title: "Quanto custa?"
-#    cost_premium_server: "CodeCombat is free for the first five levels, after which it costs $9.99 USD per month for access to our other 190+ levels on our exclusive country-specific servers."
+    cost_premium_server: "CodeCombat é de graça nos primeiros cinco níves,após isso ele custa $9.99 USD por mês adicionando mais de 190 níveis no nosso servidor exclusivo de cada país."
     free_1: "CodeCombat Basic é gratuito! Há mais de 80 níveis gratuitos que cobrem todos os conceitos." # {change}
     free_2: "Uma assinatura mensal dá acesso aos vídeos tutoriais e mais níveis para praticar."
     teacher_subs_title: "Professores recebem assinaturas gratuitas!"
-#    teacher_subs_0: "We offer free subscriptions to teachers for evaluation purposes."
+    teacher_subs_0: "Nós oferecemos assinaturas de graça para professores com fins de avaliação ."
     teacher_subs_1: "Por favor contate" # {change}
     teacher_subs_2: "para organizar uma assinatura mensal." # {change}
     teacher_subs_3: "para configurar sua assinatura"
@@ -644,7 +644,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     how_much_2: "assinatura mensal"
     how_much_3: "custa $9.99, e pode ser cancelada a qualquer momento."
     how_much_4: "Além disso, nós provemos descontos para grupos maiores:"
-#    how_much_5: "We accept discounted one-time purchases and yearly subscription purchases for groups, such as a class or school.  Please contact"
+    how_much_5: Nós aceitamos descontos em compras de uma só vez e assinaturas adiantadas para grupos, como para classe ou escola. Por favor entre em contato"
     how_much_6: "para mais detalhes."
     more_info_title: "Onde eu posso encontrar mais informações?"
     more_info_1: "Nosso"
@@ -839,19 +839,19 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     playtime: "Tempo de Jogo"
     last_played: "Último Jogo"
     leagues_explanation: "Jogar em um campeonato contra outros membros do clã nestes casos de arena multiplayer."
-#    track_concepts1: "Track concepts"
-#    track_concepts2a: "learned by each student"
-#    track_concepts2b: "learned by each member"
-#    track_concepts3a: "Track levels completed for each student"
-#    track_concepts3b: "Track levels completed for each member"
-#    track_concepts4a: "See your students'"
-#    track_concepts4b: "See your members'"
-#    track_concepts5: "solutions"
-#    track_concepts6a: "Sort students by name or progress"
-#    track_concepts6b: "Sort members by name or progress"
-#    track_concepts7: "Requires invitation"
-#    track_concepts8: "to join"
-#    private_require_sub: "Private clans require a subscription to create or join."
+    track_concepts1: "Conceito do Trajeto"
+    track_concepts2a: "Aprendido por cada estudante"
+    track_concepts2b: "Aprendido por cada membro"
+    track_concepts3a: "Trajeto concluido por cada estudante"
+    track_concepts3b: "Trajeto concluido por cada membro"
+    track_concepts4a: "Ver os seus estudantes'"
+    track_concepts4b: "Ver os seus membros'"
+    track_concepts5: "Soluções"
+    track_concepts6a: "Organizar estudantes por nome ou progresso"
+    track_concepts6b: "Orgazizar membros por nome ou progresso"
+    track_concepts7: "Requer convite"
+    track_concepts8: "Juntar-se"
+    private_require_sub: "Clans privados requerem assinatura para criar ou juntar."
 
 #  courses:
 #    course: "Course"
